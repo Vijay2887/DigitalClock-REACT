@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('C:\REACT PROGRAMS\my-react-app\src\assets\background.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clock-container {
+    
+    color: white;
+    padding: 20px 10px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 6rem;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+
+}
